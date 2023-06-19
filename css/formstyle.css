@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: black;
+}
+
+form h2{
+    color: white;
+    font-size: 35px;
+}
+
+.form-txt{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-txt a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.form-txt a:hover {
+color: white;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input , textarea {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+:focus{
+    outline: 2px solid white;
+}
+.btn {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+@media(max-width: 991px){
+    body{
+        padding: 30px;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+a{
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
